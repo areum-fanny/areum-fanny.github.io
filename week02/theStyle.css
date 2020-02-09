@@ -1,4 +1,15 @@
 body{
-    background-color: lightblue;
-    text-emphasis-color: pink;
+    background-color: lightyellow;
+    text-align: center;
 }
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    align-self: center;
+    color: lightskyblue;
+}
+h2{
+    color: lightgreen;
+
+}
+p{
+    color: palevioletred;
