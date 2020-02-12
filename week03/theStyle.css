@@ -1,0 +1,49 @@
+body{
+    background-color: lightyellow;
+    text-align: center;
+    border-top: 10px;
+    border:aqua;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    align-self: center;
+    color: lightskyblue;
+    margin: 20px;
+    margin:aqua;
+    
+}
+.korean{
+    font-family: 'Nanum Brush Script', cursive;
+}
+h2{
+    color: lightgreen;
+    border: 4px dotted blue;
+    padding:25px pink;
+    text-decoration:line-through;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+figure{
+    border:20px aqua;
+    padding:100px;
+}
+p{
+    color: palevioletred;
+    background-color: peachpuff;
+    padding:10px;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    border:solid black 15px;
+    border-radius: 20px;
+    margin:10vw;
+    font-weight: lighter;
+}
+
+a:visited{
+    color:rgba(20,30,48,0,0.5);
+}
+a:hover{
+    color:rgba(255,0,0,1);
+    font: size 70;
+}

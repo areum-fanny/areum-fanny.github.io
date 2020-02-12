@@ -1,0 +1,57 @@
+body{
+    background-color:black;
+    text-align: center;
+    
+}
+    #MyFace{
+        text-align: center;
+        background-color: brown;
+        border-top-left-radius: 55%;
+        border-top-right-radius: 55%;
+        border-bottom-left-radius: 60%;
+        border-bottom-right-radius: 60%;
+        height:500px;
+        width:500px;
+    
+        
+    }
+    #MyEyes{
+        background-color:white;
+        border:solid black 2px;
+        height : 45px;
+        width:80px;
+        border-top-left-radius: 45%;
+        border-top-right-radius: 45%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius:50%;
+        position: relative;
+        top:100px;
+        left:100px;
+    }
+    p{
+        background-color:white;
+        border:solid black 2px;
+        height : 45px;
+        width:80px;
+        border-top-left-radius: 45%;
+        border-top-right-radius: 45%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius:50%;
+        /*position: relative;
+        top:110px;
+        right:420px;*/
+    }
+
+    #MyNose{
+        color:salmon;
+    }
+    #MyMouth{
+        background-color:white;
+        border:solid purple 10px;
+        height : 45px;
+        width:100px;
+        border-top-left-radius: 45%;
+        border-top-right-radius: 45%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius:50%;
+    }
