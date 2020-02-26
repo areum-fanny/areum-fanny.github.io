@@ -7,7 +7,7 @@ h1{
     align-self: center;
     color: lightskyblue;
 }
-h2{
+h3{
     color: lightgreen;
     
 
@@ -20,11 +20,10 @@ p{
     text-align: center;
 }
 a{
-    color:violet;
-    
+    color:rgb(236, 118, 236);
+
 }
 a:hover{
     color:sandybrown;
-    font-size: large;
-    
+
 }

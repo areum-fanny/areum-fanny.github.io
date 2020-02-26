@@ -28,7 +28,7 @@ body{
         top:100px;
         left:100px;
     }
-    p{
+    /*p{
         background-color:white;
         border:solid black 2px;
         height : 45px;
@@ -37,10 +37,11 @@ body{
         border-top-right-radius: 45%;
         border-bottom-left-radius: 50%;
         border-bottom-right-radius:50%;
-        /*position: relative;
+        position: relative;
         top:110px;
-        right:420px;*/
+        right:420px;
     }
+    */
 
     #MyNose{
         color:salmon;
@@ -54,4 +55,5 @@ body{
         border-top-right-radius: 45%;
         border-bottom-left-radius: 50%;
         border-bottom-right-radius:50%;
+        position:relative;
     }
