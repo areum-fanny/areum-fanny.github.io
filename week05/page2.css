@@ -1,0 +1,35 @@
+body {
+    background-image: url(peoplewithglasses.jfif);
+    font-family: 'Lacquer';
+
+}
+#container{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+#container2{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#div1{
+    background-color: white;
+    font-size: large;
+    margin:10px;
+    padding:10px;
+    font-family: 'Lacquer';
+    border-radius: 10px;
+    font-size: 30px;
+}
+.button{
+    background-color:white;
+    border-radius: 30px;
+    color:black;
+    font-family: 'Lacquer';
+    font-size:40px;
+    padding:10px;
+}

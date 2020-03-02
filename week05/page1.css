@@ -1,0 +1,31 @@
+body{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading{
+    color:white;
+    font-size:60px;
+    font-family: 'Lacquer';
+
+}
+
+p{
+    background-color: grey;
+    background-color: transparent;
+    color: white;
+    font-size:60px;
+    font-family: 'Lacquer';
+    text-shadow: gray 2px;
+}
+
+.button{
+    background-color:white;
+    border-radius: 30px;
+    color:black;
+    font-family: 'Lacquer';
+    font-size:50px;
+    padding:10px;
+}

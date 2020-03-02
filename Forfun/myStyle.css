@@ -1,0 +1,27 @@
+body {
+    align-items: center;
+    background-color: plum;
+    text-align: center;
+}
+
+h1 {
+    background-color: black;
+    color: greenyellow;
+    text-decoration: dotted pink;
+    align-self: center;
+}
+
+button .Yellow {
+    background-color:yellow;
+}
+.Blue button {
+    color: blue;
+}
+
+.Green button {
+    color: green;
+}
+
+.Pink button {
+    color: pink;
+}
