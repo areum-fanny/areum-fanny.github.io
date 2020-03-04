@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(167, 250, 167);
+    padding:20px;
+    line-break: 1.5;
+}
+header {
+    background-image: url("pictures/multicolor.jfif");
+    background-position: center;
+    background-size:cover;
+    height:50vh;
+    position:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    height:25%;
+    width:30%;
+    object-fit: contain;
+    
+}
+.navbar{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 5px;
+    padding:5px;
+    background-color: lightsalmon;
+}
+#item1{
+    background-color: rgba(160, 255, 242, 0.89);
+    grid-column: 1/4;
+    text-align: center;
+}
+
+#navbaritem {
+    background-color: rgba(160, 255, 242, 0.89);
+    text-align: center;
+    border:none;
+}
+section, header {
+    position: sticky;
+    top:0;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

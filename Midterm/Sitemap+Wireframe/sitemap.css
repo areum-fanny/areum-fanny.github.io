@@ -1,0 +1,12 @@
+body{
+    background-color: lightgreen;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width:50vw;
+    height:50vw;
+    padding:10px;
+    background-color: black;
+}

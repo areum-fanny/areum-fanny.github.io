@@ -1,16 +1,40 @@
 body {
     background-color: lightgreen;
+    padding:50px;
 }
 
 header {
-    background-image:repeating-linear-gradient(lightgreen,pink,yellow,lightblue);
-    height:100vh;
-    width:100vw;
-}
-header img {
-    width:30%;
-    height:30%;
+    background-image:url("../Forfun/Pictures/Fabulous-Multicolor-Bubbles-background.jpg");
+    background-position: center;
+    background-size:cover;
+    height:70vh;
     display:flex;
     justify-content: center;
     align-items:center;
+}
+header img {
+    height:25%;
+    width:25%;
+    object-fit: contain;
+    
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    width:50%;
+}
+
+section p {
+    padding:10px;
+    background-color:lightpink;
+}
+section:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+section img { 
+    height:100vh;
+    position: sticky;
+    width:50vw;
 }
