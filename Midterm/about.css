@@ -1,35 +1,114 @@
 body{
+    font-family: 'Roboto', sans-serif;
     padding:10px;
     background-color: lightgoldenrodyellow
 }
 header{
     background-color: lightsalmon;
+    font-family: 'Cabin Sketch', cursive;
     background-size: cover;
     color: black;
     height:50vh;
     display:flex;
+    padding:20px;
     align-items: center;
     justify-content: center;
 }
+
 .navbarcontainer{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-gap: 10px;
     padding:10px;
-    background-color:lightgreen;
+    background-color:whitesmoke;
 }
 
-#navbaritem{
-    background-color: pink;
+#navbaricon{
+    background-color:lightgreen;
     padding:5px;
     text-align: center;
 }
 
-footer{
-    background-color: lightblue;
-    position:absolute;
-    width:100vw;
-    bottom: 0px;
+#navbaricon a {
+    text-decoration: none;
+    color:black;
+    font:20px;
+}
+
+.background {
+    background-size:cover;
+    background-image: url("pictures/multicolor.jfif");
+    background-position: center;
+    mix-blend-mode: screen;
+    width:100%;
+    height:100%;
+    position: fixed;
+    pointer-events: none;
+    top:0px;
+    left:0px;
+   
+}
+
+#heading {
+    background-color: blue;
+    color:white;
+    text-align: center;
+    font-size: 40px;
+}
+.body{
+    background-color: white;
+    width:50%;
     display:flex;
-    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.body #text {
+    width:60vw;
+    text-align: center;
+    padding:10px;
+}
+
+.samplegrid {
+    display: grid;
+    grid-template-rows: repeat(10,1fr);
+    grid-template-columns: repeat(10,1fr);
+    grid-gap:5px;
+    background-color:white;
+    border:2px solid black;
+}
+#sampletext{
+    height:100vh;
+    padding:10px;
+    grid-column:1/6;
+    grid-row:1/4;
+    background-color: lightcoral;
+    
+}
+#img1{
+    position:sticky;
+    top:0px;
+    grid-column: 6/11;
+    grid-row: 1/6;
+    background-color: lightskyblue;
+    
+}
+
+#img2 {
+    position:sticky;
+    top:0px;
+    grid-column: 1/6;
+    grid-row: 4/11; 
+    background-color: lime;
+}
+
+#sampletext2{
+    grid-column:6/11;
+    grid-row:6/11;
+    background-color: mediumorchid;
+}
+
+.samplegrid img{
+    width:100%;
+    height: 50%;
+    
 }

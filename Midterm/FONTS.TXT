@@ -1,0 +1,6 @@
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto', sans-serif;
+
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Lobster|Press+Start+2P|Roboto&display=swap" rel="stylesheet">
