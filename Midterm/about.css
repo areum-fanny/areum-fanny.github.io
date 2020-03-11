@@ -1,0 +1,35 @@
+body{
+    padding:10px;
+    background-color: lightgoldenrodyellow
+}
+header{
+    background-color: lightsalmon;
+    background-size: cover;
+    color: black;
+    height:50vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbarcontainer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+    padding:10px;
+    background-color:lightgreen;
+}
+
+#navbaritem{
+    background-color: pink;
+    padding:5px;
+    text-align: center;
+}
+
+footer{
+    background-color: lightblue;
+    position:absolute;
+    width:100vw;
+    bottom: 0px;
+    display:flex;
+    justify-content: flex-end;
+}
