@@ -41,7 +41,11 @@ section{
 section #image{
     width:60%;
     background-color: greenyellow;
-    
+    transition: transform 2s;
+}
+#image:hover{
+    transform:rotate(360deg);
+
 }
 section #name{
     text-align: center;
@@ -49,6 +53,12 @@ section #name{
     align-items: center;
     width:40%;
     background-color: hotpink;
+}
+
+#name:hover{
+    background-color:lightgreen;
+    opacity: 0.4;
+    zoom:2;
 }
 section img {
     width:100%;
