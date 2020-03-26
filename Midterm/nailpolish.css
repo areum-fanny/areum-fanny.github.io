@@ -35,7 +35,6 @@ header{
     align-items: center;
     justify-content: center;
     padding:10px;
-    font:15px;
     text-align: center;
     font-size: 20px;
     background-color: white;
@@ -53,32 +52,55 @@ header{
     position:sticky;
     top:22vh;
 }
-.body{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-#image {
- width: 30%;
- height: 30%;
-}
-#image img {
-    width:30vw;
-    height:30vw;
-}
-#about {
-    width:60%;
-    padding:30px;
-}
-#about p{
-    font-family: 'Cabin Sketch', cursive;
-}
 .rando {
     height:18vh;
 }
+.nailpolish{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+    position:sticky;
+    border:2px solid black;
+    top:40vh;
+    padding:20px;
+    background-color: white;
+    
+}
+.nailpolish #polishname{
+    border-radius: 30%;
+    font-family:'Cabin Sketch', cursive;
+    background-color: black;
+    padding:10px;
+    color:white;
+    
+}
+#polishname{
+    width:20%;
+    padding:10px;
+    text-align: center;
+    background-color: chartreuse;
+}
+#polishimage {
+    width:40%;
+
+}
+#polishcontent {
+    width:40%;
+}
+#polishimage img{
+    width:30vw;
+    height:50vh;
+
+}
+#polishcontent p{
+    padding:10px;
+    border:2px solid black;
+    font-family: 'Cabin Sketch', cursive;
+}
+
 @media screen and (max-width: 600px) {
-    #about p{
-        font-size:14px;
+    .nailpolish{
+        
     }
   }

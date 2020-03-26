@@ -1,73 +1,78 @@
 body{
-    padding:10px;
-    background-color: lightgoldenrodyellow
-}
-header{
-    background-color: lightsalmon;
-    font-family: 'Lobster', cursive;
-    background-size: cover;
-    color: black;
-    height:50vh;
-    display:flex;
-    padding:20px;
-    align-items: center;
-    justify-content: center;
-}
-.background {
-    background-size:cover;
-    background-image: url("pictures/multicolor.jfif");
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    background-image: url("pictures/lips.png");
     background-position: center;
-    mix-blend-mode: screen;
-    width:100%;
-    height:100%;
-    position: fixed;
-    pointer-events: none;
-    top:0px;
-    left:0px;
-   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:20%;
+    margin:0px;
 }
 
-section{
-    background-color: gray;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+header{
+    font-family: 'Cabin Sketch', cursive;
+    height:15vh;
     padding:20px;
-    height:60vh;
-    position:sticky;
-    top:0px;
-   
-}
-section #image{
-    width:60%;
-    background-color: greenyellow;
-    transition: transform 2s;
-}
-#image:hover{
-    transform:rotate(360deg);
-
-}
-section #name{
-    text-align: center;
+    display:flex;
+    align-items:center;
     justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    width:100vw;
+    color:white;
+    background-color: black;
+    top:0;
+}
+#rando {
+    height:22vh;
+}
+.body {
+    display:flex;
     align-items: center;
-    width:40%;
-    background-color: hotpink;
+    justify-content: center;
+}
+.grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    background-color: none;
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+    padding:30px;
 }
 
-#name:hover{
-    background-color:lightgreen;
-    opacity: 0.4;
-    zoom:2;
+.grid img {
+    width:22vw;
+    height:22vw;
 }
-section img {
-    width:100%;
-    height:100%;
+.grid p {
+    border-radius: 30%;
+    background-color: black;
+    color:white;
 }
-section:nth-child(odd){
-    flex-direction: row-reverse;
+#about img:hover{
+    opacity:0.6;
 }
-a {
-    text-decoration: none;
-    font-size:40px;
+#nailpolish img:hover{
+    opacity:0.6;
 }
+
+#nailarttools img:hover{
+    opacity:0.6;
+}
+
+#gallery img:hover{
+    opacity:0.6;
+}
+@media screen and (max-width: 850px) {
+    .grid{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 10px;
+    }
+    .grid img {
+        width:30vw;
+        height:30vw;
+    }
+  }
