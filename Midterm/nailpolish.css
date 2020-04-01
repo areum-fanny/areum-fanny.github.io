@@ -98,9 +98,3 @@ header{
     border:2px solid black;
     font-family: 'Cabin Sketch', cursive;
 }
-
-@media screen and (max-width: 600px) {
-    .nailpolish{
-        
-    }
-  }
