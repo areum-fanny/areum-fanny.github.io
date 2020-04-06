@@ -1,0 +1,36 @@
+
+body {
+    background-image:url("pictures/eye1.jfif");
+    background-repeat: space;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: 'Pacifico',cursive;
+}
+#circle{
+    border-radius: 50%;
+    border:solid greenyellow 2px;
+    width:30vh;
+    height:30vh;
+    background-color: white;
+}
+.top{
+    background-color: white;;
+}
+.bottom{
+    background-color: white;
+}
+.center {
+    background-color: white;
+}
+#circle:hover{
+    background-image: linear-gradient(white, black);
+}
+
+p {
+    font-family: 'Pacifico',cursive;
+}
