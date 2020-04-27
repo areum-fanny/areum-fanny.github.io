@@ -33,7 +33,6 @@ body{
     background-image:url("mark.png");
     background-size:contain;
     background-repeat: no-repeat;
-
     height: 100%;
     width: 100%;
 }
@@ -54,17 +53,21 @@ body{
     height:100px;
     
 }
-#startgame {
+.startgame {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
 }
-.time{
+#restartgame{
     display:none;
-    justify-content: space-around;
-
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pair {
+    display:none;
 }
 #won{
     display:none;
