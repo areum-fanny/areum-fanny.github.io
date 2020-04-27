@@ -69,7 +69,9 @@ $(document).ready(() => {
                     firstclick = $(cellname[1]).children('p').text();
                 }
                 else {
-                    setTimeout(checkpair("#cell1"),400);
+                    setTimeout(() => {
+                        checkpair("#cell1");
+                    }, 1000);
                 }
             }
         });
