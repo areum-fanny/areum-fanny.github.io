@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    font-family: 'Fredoka One', cursive;
+    padding: 15px;
+    line-break: 10px;
+    margin: 40px;
+}
+
+.slide{
+    display: flex;
+    position: sticky;
+    top:30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(241, 191, 239);
+    font-size: 30px;
+    text-shadow: 2px 2px yellow;
+    color:black;
+    text-emphasis-color:yellow;
+    width: 90vw;
+    height: 90vh;
+    line-break: 20px;
+    box-shadow: 10px 10px  mediumspringgreen;
+    border-radius: 30px;
+    border-color: white;
+    border-style: inset;
+    border-width: 10px;
+}
+#name {
+    margin:20px;
+    text-align: center;
+    font-size: 55px;
+    padding: 2px;
+    background-color: lightcoral;
+    box-shadow: 5px 5px greenyellow;
+}
+
+#myname {
+    font-size: 35px;
+    padding: 20px;
+    background-color: lightblue;
+    box-shadow: 4px 4px coral;
+}
+
+.slide2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+ul {
+    width:30%;
+}
+li {
+    font-size: 22px;
+}
+.slide2 img {
+    width:40%;
+    height:60%;
+    padding:2px;
+    background-color:black;
+    box-shadow: 2px 2px lightgreen;
+}
+
+.inslide {
+    width:26%;
+    text-align: center;
+    border-radius: 10px;
+}

@@ -473,6 +473,10 @@ $(document).ready(() => {
                 
                 if(pairsremaining == 0){
                     $(".gridcontainer").css('display','none'); 
+                    //$('.restartgame').show();
+                    //$('.restartgame').on('click',()=>{
+                    //    ('.gridcontainer #grids').empty();
+                    //});
                     $("#won").show();
                 }
             }
