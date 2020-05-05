@@ -15,7 +15,7 @@ body{
     flex-direction: column;
     background-color: rgb(241, 191, 239);
     font-size: 30px;
-    text-shadow: 2px 2px yellow;
+    text-shadow: 2px 2px rgb(243, 243, 46);
     color:black;
     text-emphasis-color:yellow;
     width: 90vw;
@@ -31,16 +31,28 @@ body{
     margin:20px;
     text-align: center;
     font-size: 55px;
-    padding: 2px;
+    padding: 20px;
     background-color: lightcoral;
     box-shadow: 5px 5px greenyellow;
+    border-radius: 20px;
+    animation: fadeIn ease 10s;
 }
 
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
 #myname {
     font-size: 35px;
     padding: 20px;
     background-color: lightblue;
     box-shadow: 4px 4px coral;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .slide2{
@@ -50,7 +62,8 @@ body{
     flex-direction: row;
 }
 ul {
-    width:30%;
+    width:40%;
+    list-style: square;
 }
 li {
     font-size: 22px;
@@ -66,5 +79,100 @@ li {
 .inslide {
     width:26%;
     text-align: center;
+    
+}
+
+#slide4{
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+#slideitalic{
+    font-style: italic;
+    font-size: 50px;
+    padding:40px;
+    align-items: center;
+    text-shadow: 3px 3px yellow;
+
+}
+
+#secondslide{
+    font-size:32px;
+    text-shadow: 3px 3px white;
+}
+
+#emphasis {
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+}
+
+#images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#images img{
+    height:40vh;
+    width:60vh;
+    padding:25px;
+    border-radius: 50%;
+
+}
+
+#cosmo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+}
+
+.plasticsurgery{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+}
+
+#southkorea {
+    font-style: italic;
+    font-size: 50px;
+    padding:40px;
+    align-items: center;
+    text-shadow: 3px 3px yellow;
+}
+
+.south{
+    display:none;
+}
+
+#before{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.heading{
+    font-size: 35px;
+    padding: 20px;
+    background-color: lightblue;
+    box-shadow: 4px 4px coral;
     border-radius: 10px;
+    text-align: center;
+}
+#before img{
+    width:60vh;
+    height:40vh;
+    padding:20px;
+}
+
+#workcited p{
+    font-size: 20px;
 }
