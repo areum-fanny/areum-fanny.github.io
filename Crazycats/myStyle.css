@@ -1,0 +1,175 @@
+body {
+    background-color: rgb(250, 250, 15);
+    padding:20px;
+    font-family: 'Fredoka One', cursive;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+}
+#hint{
+    position: relative;
+    top:0px;
+    left:0px;
+    height:20px;
+    width:20px;
+    display: inline-block;
+    background-color: rgb(233, 99, 99);
+    color:black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+#human{
+    flex-direction: row;
+}
+#welcome {
+    background-color: lightblue;
+    flex-direction: row;
+    height:100px;
+}
+#welcome span{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 3em;
+    animation: waves 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-delay: calc(0.1s * var(--i));
+    color: rgb(253, 105, 51);
+    text-shadow: 3px 3px rgb(100,240,30);
+}
+.dont{
+    display:none;
+}
+#getbutton {
+    background-color: rgb(100,240,30); 
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 2px 2px black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 5px 5px black;
+    font-size: 16px;
+}
+
+#getbutton:hover {
+    background-color: rgba(100,240,30,0.8);
+}
+#human img {
+    height:70%;
+}
+@keyframes waves{
+    0%{
+        opacity:1;
+        transform: translateY(0px);
+    }
+    50%{
+        opacity:0.3;
+        transform: translateY(-20px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0px);
+    }
+}
+div {
+    width:90vw;
+    height:90vh;
+    background-color:white;
+    position: relative;
+    align-items: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p {
+    font-size: 35px;
+    padding: 20px;
+    border-radius: 10px;
+    text-shadow: 2px 2px rgb(243, 243, 46);
+    text-align: center;
+    animation-name: cat;
+    position:relative;
+    animation-duration: 5s;
+    text-align:center;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-timing-function:ease-in-out;
+}
+
+
+h2{
+    text-shadow:5px 5px rgb(100,240,30);
+    animation:shake 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+}
+h3{
+    -webkit-box-reflect: below 10px linear-gradient(transparent,rgba(100,240,30,1));
+}
+/*span{
+    text-shadow:5px 5px rgb(100,240,30);
+    animation: wave 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in-out;
+}*/
+
+h3:nth-child(1){
+    animation-delay: 0.1s;
+}
+h3:nth-child(2){
+    animation-delay: 0.2s;
+}
+h3:nth-child(3){
+    animation-delay: 0.1s;
+}
+h3:nth-child(4){
+    animation-delay: 0.2s;
+}
+h3:nth-child(5){
+    animation-delay: 0.1s;
+}
+@keyframes wave{
+    0%{transform: translateY(0px);}
+    20%{transform:translateY(-20px);}
+    40%,100%{transform:translateY(0px);}
+}
+
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+@keyframes cat {
+
+    0% {top:0px; opacity:0%;}
+    100% {top:200px; opacity:100%;}
+}
